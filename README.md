@@ -26,7 +26,7 @@ The example of training image and training xml can be found in the respective di
 # The experimental results from four different object detection model using ResNet101 is shown in Table 3
 ![alt text](https://github.com/pratikshaya/face_mask_detection/blob/main/figures_from_paper/Table3.PNG)
 
-# The experimental results from four different object detection model using ResNet101 is shown in Table 4
+# The experimental results from four different object detection model using ResNet50 is shown in Table 4
 ![alt text](https://github.com/pratikshaya/face_mask_detection/blob/main/figures_from_paper/Table4.PNG)
 
 # The qualitative results from the test data is shown from Figure 5(a) to Figure 5(d)
@@ -38,8 +38,8 @@ The example of training image and training xml can be found in the respective di
 # The visualization of the heatmap from the pyramidal feature of Feature pyramid network is shown in Figure 6
 ![alt text](https://github.com/pratikshaya/face_mask_detection/blob/main/figures_from_paper/Figure%206.PNG)
 
-#Failure analysis and discussion
-# Our proposed mask detection system achieves 91% accuracy. We analyse the remaining why our system can't predict for remaining 9% of the test data. There are basically four reasons for not detecting accurately.
+# Failure analysis and discussion
+## Our proposed mask detection system achieves 91% accuracy. We analyse why our system can't predict for remaining 9% of the test data. There are basically four reasons for not detecting accurately.
 1)The data distribution of our face mask dataset is irregular in some cases, which makes the network confuse to accurately predict
 2)The area of interest for the face mask object is far from the camera. This makes hard to detect for both man and machine
 3) The third region is occlusion (some of the face mask regions are occluded by a person's face)
