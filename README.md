@@ -40,10 +40,10 @@ The example of training image and training xml can be found in the respective di
 
 # Failure analysis and discussion
 ## Our proposed mask detection system achieves 91% accuracy. We analyse why our system can't predict for remaining 9% of the test data. There are basically four reasons for not detecting accurately.
-1)The data distribution of our face mask dataset is irregular in some cases, which makes the network confuse to accurately predict
-2)The area of interest for the face mask object is far from the camera. This makes hard to detect for both man and machine
-3) The third region is occlusion (some of the face mask regions are occluded by a person's face)
-4) The background billboards/signboards of the person which we didn't consider during annotation results the false positive rates.
+1)The data distribution of our face mask dataset is irregular in some cases, which makes the network confuse to accurately predict\
+2)The area of interest for the face mask object is far from the camera. This makes hard to detect for both man and machine\
+3) The third region is occlusion (some of the face mask regions are occluded by a person's face)\
+4) The background billboards/signboards of the person which we didn't consider during annotation results the false positive rates.\
 ![alt text](https://github.com/pratikshaya/face_mask_detection/blob/main/figures_from_paper/Figure%207(a).PNG)
 ![alt text](https://github.com/pratikshaya/face_mask_detection/blob/main/figures_from_paper/Figure%207(b).PNG)
 ![alt text](https://github.com/pratikshaya/face_mask_detection/blob/main/figures_from_paper/Figure%207(c).PNG)
