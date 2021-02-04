@@ -1,6 +1,6 @@
 # Deep learning-based face mask status detection using automated GUI for COVID-19
 
-![alt text](https://github.com/pratikshaya/face_mask_detection/blob/main/Media1.mp4)
+![alt text](https://github.com/pratikshaya/face_mask_detection/blob/main/Tool_gif.gif)
 
 The example of training image and training xml can be found in the respective directory. The six different augementation image and their corresponding xml file can be fournd in the augmented_image_example and augmented_xml_example folder.
 
